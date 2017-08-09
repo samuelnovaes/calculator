@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="css/calc.css">
+</head>
+
+<body>
+	<div id="runner">
+		<input type="text" class="field" id="f0" placeholder="Math.js Expression">
+	</div>
+	<br>
+	<a href="#" id="help-link">Help</a><br>
+	<div id="help">
+		See: <a href="http://mathjs.org" target="_blank">Math.js</a> <a href="https://mauriciopoppe.github.io/function-plot" target="_blank">Function-Plot</a>.<br>
+		Type <strong>plot(exp0, exp1, exp2, ...)</strong> to draw a plot (each expression is a string).<br>
+		Type <strong>clear</strong> to clear screen.<br>
+		Type <strong>help(func)</strong> to see the function documentation.<br>
+		Press <strong>Up</strong> or <strong>Down</strong> to navigate between old expressions.
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/math.min.js"></script>
+	<script src="bower_components/d3/d3.min.js"></script>
+	<script src="bower_components/function-plot/dist/function-plot.js"></script>
+	<script src="js/calc.js"></script>
+</body>
+
+</html>

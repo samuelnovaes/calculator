@@ -1,0 +1,51 @@
+@font-face {
+    font-family: courier-new;
+    src: url(../fonts/courier.ttf);
+}
+
+*{
+	font-family: courier-new, arial, sans-serif;
+}
+
+body, .field {
+	background-color: #000;
+	color: #fff;
+}
+
+.field {
+	width: 100%;
+	border: none;
+	outline: none;
+}
+
+.result {
+	color: #6f6;
+}
+
+.error {
+	color: #f66;
+}
+
+.field, .result, .error {
+	font-size: 1em;
+}
+
+.plot {
+	background-color: #eee;
+	max-width: 580px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #6cf;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#help {
+	display: none;
+}
