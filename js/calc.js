@@ -14,8 +14,8 @@ math.import({
 		$('#runner').append($(`<div class="plot" id="p${plot}"></div>`));
 		functionPlot({
 			target: `#p${plot}`,
-			width: 580,
-			height: 400,
+			width: innerWidth <= 640 ? innerWidth : 640,
+			height: 480,
 			title: '',
 			grid: true,
 			data

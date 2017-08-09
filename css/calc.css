@@ -32,8 +32,9 @@ body, .field {
 
 .plot {
 	background-color: #eee;
-	width: 580px;
-	height: 400px;
+	width: 100%;
+	max-width: 640px;
+	height: 480px;
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
