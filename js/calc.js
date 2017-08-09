@@ -36,7 +36,7 @@ $('#runner').on('keydown', '.field', function (e) {
 			}
 			else {
 				id++;
-				$(this).prop('disabled', true);
+				$(this).prop('disabled', true).attr('placeholder', '');
 				try {
 					let result = parser.eval(str);
 					if (typeof result == 'function') {
