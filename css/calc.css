@@ -1,6 +1,6 @@
 @font-face {
-    font-family: courier-new;
-    src: url(../fonts/courier.ttf);
+	font-family: courier-new;
+	src: url(../fonts/courier.ttf);
 }
 
 *{
@@ -39,12 +39,13 @@ body, .field {
 	margin-bottom: 1em;
 }
 
-a {
+a, .link {
 	text-decoration: none;
 	color: #6cf;
+	cursor: pointer;
 }
 
-a:hover {
+a:hover, .link:hover {
 	text-decoration: underline;
 }
 
