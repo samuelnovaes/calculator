@@ -49,8 +49,8 @@ $('#runner').on('keydown', '.field', function (e) {
 				}
 			}
 			$('#runner').append($(`<input type="text" id="f${id}" class="field" placeholder="Math.js Expression">`));
-			$('html').scrollTop($(document).height());
 			$(`#f${id}`).focus();
+			$('html').scrollTop($(document).height());
 			break;
 		case 'ArrowUp':
 			if (index > 0) {
